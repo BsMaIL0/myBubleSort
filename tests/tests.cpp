@@ -1,10 +1,13 @@
 #include <gtest/gtest.h>
 
-#include <algorithm>
-#include <chrono>
-#include <functional>
-#include <random>
-#include <vector>
+#include <algorithm>    // std::sort, std::is_sorted
+#include <chrono>       // std::chrono
+#include <climits>      // INT_MAX, INT_MIN
+#include <iostream>     // std::cout
+#include <random>       // std::random_device, std::mt19937
+#include <set>          // std::multiset (используется в тесте)
+#include <string>       // std::string
+#include <vector>       // std::vector
 
 // Подключаем вашу сортировку
 #include "myBubbleSort/myBubbleSort.h"

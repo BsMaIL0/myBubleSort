@@ -1,7 +1,6 @@
 #ifndef MY_BUBBLE_SORT_H
 #define MY_BUBBLE_SORT_H
 
-#include <functional>
 #include <utility>
 
 template <typename T, typename Compare = std::less<T>>
