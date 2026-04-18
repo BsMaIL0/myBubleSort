@@ -4,9 +4,6 @@ project(myBubleSort)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Опции для линтера
-option(ENABLE_CLANG_TIDY "Enable clang-tidy checks" ON)
-
 enable_testing()
 
 include(FetchContent)
